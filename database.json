@@ -1,0 +1,172 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "fullName": "Bill Murray",
+            "email": "life@aquatic.sea",
+            "isStaff": false
+        },
+        {
+            "id": 2,
+            "fullName": "Adam Sandler",
+            "email": "wedding@singers.mic",
+            "isStaff": true
+        },
+        {
+            "id": 3,
+            "fullName": "Robin Williams",
+            "email": "sad@clown.sad",
+            "isStaff": true
+        },
+        {
+            "id": 4,
+            "fullName": "Jimmy Fallon",
+            "email": "breaking@thefourth.wall",
+            "isStaff": false
+        },
+        {
+            "id": 5,
+            "fullName": "Norm McDonald",
+            "email": "moth@the.bar",
+            "isStaff": true
+        },
+        {
+            "id": 6,
+            "fullName": "Dave Chapelle",
+            "email": "sprinkle@somecrack.onhim",
+            "isStaff": false
+        },
+        {
+            "id": 7,
+            "fullName": "John Candy",
+            "email": "fatman@little.coat",
+            "isStaff": true
+        }
+    ],
+    "customers": [
+        {
+            "id": 1,
+            "address": "4937 Turn Around Cul de Sac",
+            "phoneNumber": "028-327-4927",
+            "userId": 1,
+            "loyaltyNumber": 12345
+        },
+        {
+            "id": 2,
+            "address": "666 Only Zuul",
+            "phoneNumber": "911-666-1001",
+            "userId": 2,
+            "loyaltyNumber": 66666
+        },
+        {
+            "id": 3,
+            "address": "1208 Hard Candy lane",
+            "phoneNumber": "404-284-0582",
+            "userId": 3,
+            "loyaltyNumber": 54321
+        }
+    ],
+    "employees'": [
+        {
+            "id": 1,
+            "startDate": "",
+            "payRate": 25.00,
+            "location": 2,
+            "userId": 5
+        },
+        {
+            "id": 2,
+            "startDate": "",
+            "payRate": 25.00,
+            "location": 3,
+            "userId": 2
+        },
+        {
+            "id": 3,
+            "startDate": "",
+            "payRate": 25.00,
+            "location": 1,
+            "userId": 7
+        }
+    ],
+    "locations": [
+        {
+            "id": 1,
+            "address": "2354 Main St.",
+            "size": "2200 SquareFt"
+        },
+        {
+            "id": 2,
+            "address": "456 Broadway",
+            "size": "550 SquareFt"
+        },
+        {
+            "id": 3,
+            "address": "5643 Second Ave.",
+            "size": "1400 SquareFt"
+        }
+    ],
+    "products": [
+        {
+            "id": 1,
+            "name": "Gummy Bears",
+            "typeId": 1,
+            "price": 2
+        },
+        {
+            "id": 2,
+            "name": "Werther's Original",
+            "typeId": 3,
+            "price": 2.25
+        },
+        {
+            "id": 3,
+            "name": "Hershy's",
+            "typeId": 2,
+            "price": 2.75
+        },
+        {
+            "id": 4,
+            "name": "Cinnimon Disks",
+            "typeId": 3,
+            "price": 1
+        },
+        {
+            "id": 5,
+            "name": "Twix",
+            "typeId": 2,
+            "price": 1.85
+        },
+        {
+            "id": 6,
+            "name": "Gummy Worms",
+            "typeId": 1,
+            "price": 1.5
+        },
+        {
+            "id": 6,
+            "name": "Pixie Sticks",
+            "typeId": 4,
+            "price": 1
+        }
+    ],
+    "types": [
+        {
+            "id": 1,
+            "candy": "gummies"
+        },
+        {
+            "id": 2,
+            "candy": "chocolate bars"
+        },
+        {
+            "id": 3,
+            "candy": "hard candy"
+        },
+        {
+            "id": 4,
+            "candy": "literally just sugar"
+        }
+    ],
+    "purchases": []
+}
